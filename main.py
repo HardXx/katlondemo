@@ -17,7 +17,7 @@ driver.find_element(By.ID,"txt-password").send_keys("ThisIsNotAPassword")
 driver.find_element(By.XPATH,"//button[@id='btn-login']").click()
 
 
-#Fill form
+#Fill Form
 driver.find_element(By.NAME,"facility").click()
 driver.find_element(By.XPATH,"/html/body/section/div/div/form/div[1]/div/select/option[2]").click()
 driver.find_element(By.NAME,"hospital_readmission").click()
@@ -27,7 +27,7 @@ driver.find_element(By.ID,"txt_comment").send_keys("Please check appointment")
 driver.find_element(By.ID,"btn-book-appointment").click()
 driver.find_element(By.XPATH,"//a[normalize-space()='Go to Homepage']").click()
 
-#logout
+#lOGOUT
 driver.find_element(By.ID,"menu-toggle").click()
 driver.find_element(By.XPATH,"/html/body/nav/ul/li[5]/a").click()
 
